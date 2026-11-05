@@ -1,0 +1,10 @@
+name: prueba
+on:
+  workflow_dispatch:
+jobs:
+  roto:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo $SIN_COMILLAS
+        shell: bash
+        noexiste: true
